@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valorant Companion - Portfolio</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body class="bg-gray-100">
     <!-- Navigation -->
     <nav class="bg-gray-800 text-white p-4">
@@ -24,11 +26,11 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <h1 class="text-4xl font-bold mb-4">Valorant Companion</h1>
-                <p class="text-xl text-gray-300 mb-6">Brief tagline describing the project</p>
-                <div class="flex flex-wrap gap-2">
-                    <span class="bg-blue-600 px-3 py-1 rounded-full text-sm">Unity</span>
+                <p class="text-xl text-gray-300 mb-6">A comprehensive Valorant companion app designed to track statistics, manage game data, and provide insights across multiple seasons.</p>
+                <div class="flex flex-wrap gap-2">                    
                     <span class="bg-blue-600 px-3 py-1 rounded-full text-sm">C#</span>
-                    <span class="bg-blue-600 px-3 py-1 rounded-full text-sm">Game Development</span>
+                    <span class="bg-blue-600 px-3 py-1 rounded-full text-sm">WPF</span>
+                    <span class="bg-blue-600 px-3 py-1 rounded-full text-sm">Entity Framework</span>
                 </div>
             </div>
         </div>
@@ -39,17 +41,17 @@
             <div class="max-w-4xl mx-auto">
                 <div class="mb-12">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <img src="/api/placeholder/600/400" alt="Project Screenshot 1" class="w-full rounded-lg shadow-lg">
-                        <img src="/api/placeholder/600/400" alt="Project Screenshot 2" class="w-full rounded-lg shadow-lg">
-                        <img src="/api/placeholder/600/400" alt="Project Screenshot 3" class="w-full rounded-lg shadow-lg">
-                        <img src="/api/placeholder/600/400" alt="Project Screenshot 4" class="w-full rounded-lg shadow-lg">
+                        <img src="https://github.com/tomporter1/ValorantCompanion/blob/master/ReadMeImages/Home.png?raw=true" alt="Valorant tracker home screen" class="w-full rounded-lg shadow-lg">
+                        <img src="https://github.com/tomporter1/ValorantCompanion/blob/master/ReadMeImages/AllRankedGameLogs.jpg?raw=true" alt="Valorant match history overview" class="w-full rounded-lg shadow-lg">
                     </div>
                 </div>
 
                 <section class="mb-12">
                     <h2 class="text-2xl font-bold mb-4">Project Overview</h2>
                     <p class="text-gray-700 mb-4">
-                        DESCRIPTION
+                        This project is a stat tracker for the popular game Valorant , developed during my time in the Sparta Global C# SDET training program. Initially created as part of a week-long challenge, I continued refining it post-training to add advanced features like tracking rank changes, supporting multi-season data storage, and enabling long-term queries (e.g., finding games with the most kills). The app offers a user-friendly interface for navigating game statistics, adding or editing agents, and visualizing historical gameplay data.
+                    </p>
+                    <p class="text-gray-700 mb-4"> The application is built using a layered architecture, with a business layer managing interactions between the GUI and database through Entity Framework Core. This structure ensures clean separation of concerns and maintainability. Key features include multi-season data support, rank tracking, and customizable queries for deep dives into game statistics. The project demonstrates my ability to design scalable applications that evolve over time while maintaining usability.
                     </p>
                 </section>
 
@@ -58,30 +60,30 @@
                     <div class="bg-white rounded-lg shadow-lg p-6">
                         <h3 class="text-xl font-bold mb-4">Key Features</h3>
                         <ul class="list-disc pl-6 mb-6 space-y-2">
-                            <li>Feature 1 with technical implementation details</li>
-                            <li>Feature 2 with technical implementation details</li>
-                            <li>Feature 3 with technical implementation details</li>
-                            <li>Feature 4 with technical implementation details</li>
+                            <li>Multi-season data storage and analysis</li>
+                            <li>Rank tracking system</li>
+                            <li>Business layer with interface-driven GUI interaction</li>
+                            <li>Clean architecture using C# and Entity Framework Core</li>
                         </ul>
 
                         <h3 class="text-xl font-bold mb-4">Technologies Used</h3>
-                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                            <div class="bg-gray-100 p-4 rounded-lg">
-                                <h4 class="font-bold">Unity Version</h4>
-                                <p class="text-gray-600">2022.3 LTS</p>
-                            </div>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">                            
                             <div class="bg-gray-100 p-4 rounded-lg">
                                 <h4 class="font-bold">Platform</h4>
-                                <p class="text-gray-600">PC / Mobile / Console</p>
+                                <p class="text-gray-600">Windows (WPF)</p>
                             </div>
                             <div class="bg-gray-100 p-4 rounded-lg">
                                 <h4 class="font-bold">Programming</h4>
-                                <p class="text-gray-600">C#</p>
+                                <p class="text-gray-600">C# / .Net / Entity Framework</p>
+                            </div>
+                            <div class="bg-gray-100 p-4 rounded-lg">
+                                <h4 class="font-bold">Database</h4>
+                                <p class="text-gray-600">TSQL</p>
                             </div>
                         </div>
                     </div>
                 </section>
-<!-- 
+                <!-- 
                 <section class="mb-12">
                     <h2 class="text-2xl font-bold mb-4">Development Process</h2>
                     <div class="space-y-4">
@@ -125,15 +127,13 @@
                         </ul>
                     </div>
                 </section>
-
+-->
                 <section class="mb-12">
                     <h2 class="text-2xl font-bold mb-4">Project Links</h2>
                     <div class="flex flex-wrap gap-4">
-                        <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg">View on Steam</a>
-                        <a href="#" class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-2 rounded-lg">GitHub Repository</a>
-                        <a href="#" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg">Download Demo</a>
+                        <a href="https://github.com/tomporter1/ValorantCompanion/" class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-2 rounded-lg">GitHub Repository</a>
                     </div>
-                </section> -->
+                </section>
             </div>
         </div>
     </main>
@@ -149,4 +149,5 @@
         </div>
     </footer>
 </body>
+
 </html>
