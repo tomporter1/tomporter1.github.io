@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <!-- Background -->
+  <rect width="500" height="200" fill="#f8f9fa"/>
+  
+  <!-- Decorative line -->
+  <line x1="40" y1="100" x2="460" y2="100" stroke="#e9ecef" stroke-width="2"/>
+  
+  <!-- Left text - normal -->
+  <text x="60" y="70" font-family="Arial" font-size="24" fill="#495057">
+    Lorem ipsum
+  </text>
+  
+  <!-- Right text - bionic -->
+  <text x="300" y="70" font-family="Arial" font-size="24">
+    <tspan fill="#212529" font-weight="bold">Lo</tspan>
+    <tspan fill="#495057">rem </tspan>
+    <tspan fill="#212529" font-weight="bold">ip</tspan>
+    <tspan fill="#495057">sum</tspan>
+  </text>
+  
+  <!-- Arrow -->
+  <path d="M 220 70 L 270 70 L 250 60 M 270 70 L 250 80" fill="none" stroke="#228be6" stroke-width="2"/>
+  
+  <!-- Subtle description text -->
+  <text x="60" y="130" font-family="Arial" font-size="16" fill="#868e96">Before</text>
+  <text x="300" y="130" font-family="Arial" font-size="16" fill="#868e96">After</text>
+  
+  <!-- Additional decorative elements -->
+  <circle cx="40" cy="100" r="4" fill="#228be6"/>
+  <circle cx="460" cy="100" r="4" fill="#228be6"/>
+</svg>
