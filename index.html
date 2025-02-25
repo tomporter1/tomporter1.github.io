@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tom Porter - Unity Developer</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-        <style>
-            .project-image-container {
-                height: 250px;
-                overflow: auto;
-            }
-        
-            .project-image {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        </style>
+    <style>
+        .project-image-container {
+            height: 250px;
+            overflow: auto;
+        }
+
+        .project-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body class="bg-gray-100">
@@ -28,7 +28,7 @@
                 <a href="#" class="hover:text-gray-300">Home</a>
                 <a href="#projects" class="hover:text-gray-300">Projects</a>
                 <a href="#about" class="hover:text-gray-300">About</a>
-                <!-- <a href="#contact" class="hover:text-gray-300">Contact</a> -->
+                <a href="#contact" class="hover:text-gray-300">Contact</a>
             </div>
         </div>
     </nav>
@@ -45,123 +45,6 @@
             </div> -->
         </div>
     </header>
-
-<section id="projects" class="py-20">
-    <div class="container mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Featured Projects</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div class="project-image-container">
-                    <img src="./Images/ImmersifyPlatform/ImmersifyLogo.png" alt="Project 2" class="project-image">
-                </div>
-                <div class="p-6">
-                    <a href="./Projects/ImmersifyPlatform.html">
-                        <h3 class="text-xl font-bold mb-2">Immersify Platform 4.0</h3>
-                    </a>
-                    <p class="text-gray-600 mb-4">Designed and implemented a multi platform rebuild for Immersify Education</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Unity</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">.Net</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">API</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">TypeScript</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Database</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div class="project-image-container">
-                    <img src="./Images/Anatome/AnatoMeBanner.jpg" class="project-image">
-                </div>
-                <div class="p-6">
-                    <a href="./Projects/AnatoMe.html">
-                        <h3 class="text-xl font-bold mb-2">AnatoMe</h3>
-                    </a>
-                    <p class="text-gray-600 mb-4">Using AR to teach muscles of the head to dental students</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Unity</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">.Net</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">AR</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">AR Foundation</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div class="project-image-container">
-                    <img src="./Images/ChemistryLab/ArChemistryBanner.jpg" class="project-image">
-                </div>
-                <div class="p-6">
-                    <a href="./Projects/ChemistryArLab.html">
-                        <h3 class="text-xl font-bold mb-2">Chemistry AR Lab</h3>
-                    </a>
-                    <p class="text-gray-600 mb-4">Simulates the reactions between different elements using AR markers</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Unity</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">.Net</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">AR</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Vuforia</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div class="project-image-container">
-                    <img src="./Images/BionicReading/bionic-reading-header.svg" class="project-image">
-                </div>
-                <div class="p-6">
-                    <a href="./Projects/BionicReading.html">
-                        <h3 class="text-xl font-bold mb-2">Bionic Reading Chrome Extension</h3>
-                    </a>
-                    <p class="text-gray-600 mb-4">An extension that auto bolds the first letters of each word to improve readability and accessibility</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">HTML</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">CSS</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div class="project-image-container">
-                    <img src="https://github.com/tomporter1/ValorantCompanion/raw/master/ReadMeImages/AllRankedGameLogs.jpg" class="project-image">
-                </div>
-                <div class="p-6">
-                    <a href="./Projects/ValorantCompanion.html">
-                        <h3 class="text-xl font-bold mb-2">Valorant Companion App</h3>
-                    </a>
-                    <p class="text-gray-600 mb-4">Standalone application for tracking game information and personal stats for the game Valorant</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">.Net</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">SQL</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">WPF</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div class="project-image-container">
-                    <img src="./Images/IsoProgramming/IsoProgrammingBanner.jpg" class="project-image">
-                </div>
-                <div class="p-6">
-                    <a href="./Projects/IsoProgrammingGame.html">
-                        <h3 class="text-xl font-bold mb-2">Learning Programming Game</h3>
-                    </a>
-                    <p class="text-gray-600 mb-4">Teaching basic programming by using a scratch-like programming language to solve a puzzle in a 3D environment</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Unity</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 
     <section id="about" class="bg-gray-100 py-20">
         <div class="container mx-auto">
@@ -207,29 +90,145 @@
         </div>
     </section>
 
+    <section id="projects" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Featured Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="project-image-container">
+                        <img src="./Images/ImmersifyPlatform/ImmersifyLogo.png" alt="Project 2" class="project-image">
+                    </div>
+                    <div class="p-6">
+                        <a href="./Projects/ImmersifyPlatform.html">
+                            <h3 class="text-xl font-bold mb-2">Immersify Platform 4.0</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4">Designed and implemented a multi platform rebuild for Immersify Education</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Unity</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">.Net</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">API</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">TypeScript</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Database</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="project-image-container">
+                        <img src="./Images/Anatome/AnatoMeBanner.jpg" class="project-image">
+                    </div>
+                    <div class="p-6">
+                        <a href="./Projects/AnatoMe.html">
+                            <h3 class="text-xl font-bold mb-2">AnatoMe</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4">Using AR to teach muscles of the head to dental students</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Unity</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">.Net</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">AR</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">AR Foundation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="project-image-container">
+                        <img src="./Images/ChemistryLab/ArChemistryBanner.jpg" class="project-image">
+                    </div>
+                    <div class="p-6">
+                        <a href="./Projects/ChemistryArLab.html">
+                            <h3 class="text-xl font-bold mb-2">Chemistry AR Lab</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4">Simulates the reactions between different elements using AR markers</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Unity</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">.Net</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">AR</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Vuforia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="project-image-container">
+                        <img src="./Images/BionicReading/bionic-reading-header.svg" class="project-image">
+                    </div>
+                    <div class="p-6">
+                        <a href="./Projects/BionicReading.html">
+                            <h3 class="text-xl font-bold mb-2">Bionic Reading Chrome Extension</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4">An extension that auto bolds the first letters of each word to improve readability and accessibility</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">HTML</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="project-image-container">
+                        <img src="https://github.com/tomporter1/ValorantCompanion/raw/master/ReadMeImages/AllRankedGameLogs.jpg" class="project-image">
+                    </div>
+                    <div class="p-6">
+                        <a href="./Projects/ValorantCompanion.html">
+                            <h3 class="text-xl font-bold mb-2">Valorant Companion App</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4">Standalone application for tracking game information and personal stats for the game Valorant</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">.Net</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">SQL</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">WPF</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="project-image-container">
+                        <img src="./Images/IsoProgramming/IsoProgrammingBanner.jpg" class="project-image">
+                    </div>
+                    <div class="p-6">
+                        <a href="./Projects/IsoProgrammingGame.html">
+                            <h3 class="text-xl font-bold mb-2">Learning Programming Game</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4">Teaching basic programming by using a scratch-like programming language to solve a puzzle in a 3D environment</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Unity</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
-    <!-- <section id="contact" class="py-20">
+    <section id="contact" class="py-20">
         <div class="container mx-auto">
             <h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2>
             <div class="max-w-xl mx-auto">
-                <form class="space-y-6">
+                <form action="https://formspree.io/f/mwpvdyan" method="POST">
                     <div>
                         <label class="block text-gray-700 mb-2" for="name">Name</label>
-                        <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
+                        <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
                     </div>
                     <div>
                         <label class="block text-gray-700 mb-2" for="email">Email</label>
-                        <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
                     </div>
                     <div>
                         <label class="block text-gray-700 mb-2" for="message">Message</label>
-                        <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500"></textarea>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500"></textarea>
                     </div>
                     <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg">Send Message</button>
                 </form>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8">
